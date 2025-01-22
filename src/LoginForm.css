@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap');
+.login{
+    margin-top: 50%;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    width: 420px;
+    height: 420px;
+    border: 2px solid #e0dcdc;
+    border-radius: 25px;
+    padding: 30px 35px;
+}
+.login h1{
+    color: white;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 40px ;
+}
+.data{
+    margin-bottom: 25px;
+    padding: 0 5px 0 5px;
+}
+.data input{
+    color: white;
+    font-size: 16px;
+    width: 97%;
+    height: 50px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #ddded9;
+    border-radius: 45px;
+}
+.data .icon{
+    position: absolute;
+    right:63px;
+    margin-top: 19px;
+    color: white;
+}
+.data input::placeholder{
+    padding: 3px;
+    color: white;
+}
+.remfor{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.remfor input{
+    margin-left: 4px;
+}
+.remfor a{
+    text-decoration: none;
+    color: white;
+}
+.login button{
+    width: 97%;
+    height: 50px;
+    border: 2px solid #e0dcdc;
+    border-radius: 25px;
+    color: white;
+    background: transparent;
+    margin-top: 40px;
+}
+.login button:hover{
+    background-color: white;
+    color: black;
+}
